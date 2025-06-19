@@ -1,0 +1,13 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "LGPLv3"
+
+[[mods]]
+modId = "jeiae2compact"
+version = "${version}"
+displayName = "JEI AE2 Compact"
+authors = "bling-yshs, Debris"
+description = '''JEI AE2 Compact Mod Desc'''
+
+[[mixins]]
+config = "jeiae2compact.mixins.json"

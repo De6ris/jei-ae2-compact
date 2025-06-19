@@ -41,7 +41,7 @@ public abstract class MEStorageScreenMixin<T extends MEStorageMenu> extends AEBa
     /**
      * 注入到mouseClicked方法，处理中键点击物品
      */
-    @Inject(method = "mouseClicked", at = @At("RETURN"))
+    @Inject(method = "mouseClicked", at = @At(value = "RETURN", ordinal = 1))
     private void onMouseClicked(double mouseX, double mouseY, int button, CallbackInfoReturnable<Boolean> cir) {
         // 检查是否是中键点击
         if (Minecraft.getInstance().options.keyPickItem.matchesMouse(button)) {
