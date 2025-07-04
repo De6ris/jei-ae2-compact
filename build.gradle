@@ -42,6 +42,10 @@ dependencies {
 
     modImplementation "org.appliedenergistics:appliedenergistics2:${ae2_version}"
 
+    modImplementation("mekanism:Mekanism:${minecraft_version}-${mekanism_version}:all")
+
+    modImplementation "curse.maven:applied-mekanistics-574300:5978711"
+
     implementation libs.jsr305
 }
 
