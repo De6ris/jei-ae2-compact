@@ -8,6 +8,7 @@
     "MEStorageScreenMixin"
   ],
   "client": [
+    "CraftConfirmScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
